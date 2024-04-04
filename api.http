@@ -2,7 +2,7 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "Unite sunmit",
+    "title": "NLW Unite",
     "detais": "Um evento para quem é apaixonado por programação",
     "maximumAttendees": 180
 }
@@ -12,8 +12,8 @@ POST http://localhost:3333/events/e6c40e49-c7bd-4e3c-a424-246354df6c90/attendees
 Content-Type: application/json
 
 {
-    "name": "João Guilherme dos Santos",
-    "email": "joaoguilhermesantos2909@gmail.com"
+    "name": "João Guilherme dos Santos2",
+    "email": "joaoguilhermesantos2909@gmail2.com"
 }
 
 ###
@@ -23,7 +23,7 @@ GET http://localhost:3333/events/e6c40e49-c7bd-4e3c-a424-246354df6c90
 GET http://localhost:3333/attendees/1/badge
 
 ###
-GET http://localhost:3333/attendees/1/checkin
+GET http://localhost:3333/attendees/2/checkin
 
 ###
-GET http://localhost:3333/events/e6c40e49-c7bd-4e3c-a424-246354df6c90/attendees
+GET http://localhost:3333/events/e6c40e49-c7bd-4e3c-a424-246354df6c90/attendees?name=João
